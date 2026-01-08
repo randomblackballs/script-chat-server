@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: script-chat
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
